@@ -1,0 +1,5 @@
+node_modules
+
+src/token-gen.bash
+src/token.json
+src/util/config.js
