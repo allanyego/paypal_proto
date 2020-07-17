@@ -2,6 +2,7 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
+  "homepage": "paypal_proto",
   "dependencies": {
     "bulma": "^0.9.0",
     "node-sass": "^4.14.1",
