@@ -8,6 +8,7 @@ export default function Test() {
   const amt = useRef(amount),
     amtErr = useRef(amountError);
 
+  // Initiate order
   const createOrder = (data, actions) => {
     if (amtErr.current) {
       setNotificationVisible(true);
@@ -28,6 +29,7 @@ export default function Test() {
     });
   };
 
+  // Once the order has been approved
   const onApprove = (data, actions) => {
     return actions.order.capture().then((details) => {
       const {
@@ -41,6 +43,7 @@ export default function Test() {
     });
   };
 
+  // Setup the buttons
   useEffect(() => {
     const paypal = window.paypal;
     if (paypal) {
@@ -53,6 +56,7 @@ export default function Test() {
     }
   }, []);
 
+  // Handle change and amount validation
   const onAmountChange = (event) => {
     const val = +event.target.value || 0;
     const isInvalid = val < 0.5;
