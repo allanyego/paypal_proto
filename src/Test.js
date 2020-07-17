@@ -9,7 +9,7 @@ export default function Test() {
     amtErr = useRef(amountError);
 
   // Initiate order
-  const createOrder = (data, actions) => {
+  const createOrder = (_data, actions) => {
     if (amtErr.current) {
       setNotificationVisible(true);
       return;
@@ -30,7 +30,7 @@ export default function Test() {
   };
 
   // Once the order has been approved
-  const onApprove = (data, actions) => {
+  const onApprove = (_data, actions) => {
     return actions.order.capture().then((details) => {
       const {
         purchase_units: [{ amount, shipping }],
