@@ -12,12 +12,8 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <Test />
-      </div>
-    );
+    return <Test />;
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('app'));
