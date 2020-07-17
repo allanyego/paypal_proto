@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.8c246e80.chunk.js",
-    "main.js.map": "/static/js/main.8c246e80.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7bb332b4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7bb332b4.js.map",
-    "static/css/2.8ddda0ad.chunk.css": "/static/css/2.8ddda0ad.chunk.css",
-    "static/js/2.50ec8351.chunk.js": "/static/js/2.50ec8351.chunk.js",
-    "static/js/2.50ec8351.chunk.js.map": "/static/js/2.50ec8351.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c98118742fe44fcc28bc283f6c9df692.js": "/precache-manifest.c98118742fe44fcc28bc283f6c9df692.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.8ddda0ad.chunk.css.map": "/static/css/2.8ddda0ad.chunk.css.map",
-    "static/js/2.50ec8351.chunk.js.LICENSE.txt": "/static/js/2.50ec8351.chunk.js.LICENSE.txt"
+    "main.js": "/paypal_proto/static/js/main.8c246e80.chunk.js",
+    "main.js.map": "/paypal_proto/static/js/main.8c246e80.chunk.js.map",
+    "runtime-main.js": "/paypal_proto/static/js/runtime-main.3ed46e34.js",
+    "runtime-main.js.map": "/paypal_proto/static/js/runtime-main.3ed46e34.js.map",
+    "static/css/2.8ddda0ad.chunk.css": "/paypal_proto/static/css/2.8ddda0ad.chunk.css",
+    "static/js/2.50ec8351.chunk.js": "/paypal_proto/static/js/2.50ec8351.chunk.js",
+    "static/js/2.50ec8351.chunk.js.map": "/paypal_proto/static/js/2.50ec8351.chunk.js.map",
+    "index.html": "/paypal_proto/index.html",
+    "precache-manifest.0cdeb685bdb45c8a160888216c0ee930.js": "/paypal_proto/precache-manifest.0cdeb685bdb45c8a160888216c0ee930.js",
+    "service-worker.js": "/paypal_proto/service-worker.js",
+    "static/css/2.8ddda0ad.chunk.css.map": "/paypal_proto/static/css/2.8ddda0ad.chunk.css.map",
+    "static/js/2.50ec8351.chunk.js.LICENSE.txt": "/paypal_proto/static/js/2.50ec8351.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bb332b4.js",
+    "static/js/runtime-main.3ed46e34.js",
     "static/css/2.8ddda0ad.chunk.css",
     "static/js/2.50ec8351.chunk.js",
     "static/js/main.8c246e80.chunk.js"
